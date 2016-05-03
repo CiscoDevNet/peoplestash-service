@@ -10,7 +10,7 @@ In this project you will find:
 
 - server.config - example config file for logstash
 
-#TODO - add more info about how to install
-#TODO - add plugins for APIs for other work tracking tools
+####TODO - add more info about how to install
+####TODO - add plugins for APIs for other work tracking tools
 
 
