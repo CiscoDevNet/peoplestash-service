@@ -43,7 +43,7 @@ def hello_world():
 def get_cards():
     print ("in get cards12")
     # enter your leankit username and password
-    replyData = requests.get("https://cisco1787.leankit.com/kanban/api/boards/333122750", auth=('user', 'password'))
+    replyData = requests.get("https://<youracount>.leankit.com/kanban/api/boards/<boardid>", auth=('user', 'password'))
     r_json = replyData.json()
     # print (json.dumps(r_json, indent=4, separators=(',', ': ')))
     cards = r_json["ReplyData"][0]["Lanes"][0]["Cards"]
